@@ -6,5 +6,5 @@ if not exist "C:\Users\jtomchick\Downloads\AirwatchAgent (18).msi" (
 )
 
 echo Starting Workspace ONE Intelligent Hub enrollment...
-msiexec.exe /i "C:\Users\jtomchick\Downloads\AirwatchAgent (18).msi" /q ENROLL=Y SERVER="DS2225.awmdm.com" LGName="JDT1194" USERNAME="staging" PASSWORD="Test" ASSIGNTOLOGGEDINUSER=Y
+msiexec.exe /i "C:\Users\jtomchick\Downloads\AirwatchAgent (18).msi" /q ENROLL=Y SERVER="DS2225.awmdm.com" LGName="<>" USERNAME="staging" PASSWORD="<>" ASSIGNTOLOGGEDINUSER=Y
 exit /b %ERRORLEVEL%
